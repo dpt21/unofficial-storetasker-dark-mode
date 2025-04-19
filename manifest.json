@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Unofficial Storetasker Dark Mode",
+  "description": "Dark mode for Storetasker",
+  "version": "1.0",
+  "action": {
+    "default_icon": "favicon.ico"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://expert.storetasker.com/*"
+      ],
+      "css": ["styles.css"]
+    }
+  ]
+}

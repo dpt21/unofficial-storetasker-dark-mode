@@ -1,0 +1,251 @@
+.AppExpert .Dashboard {
+  /* Main background colors */
+  --dark-background: #1a1b1e;
+  --dark-surface: #2c2e33;
+  --dark-surface-lighter: #3a3c42;
+  
+  /* Text colors */
+  --dark-text-primary: #e6e6e7;
+  --dark-text-secondary: #a0a0a2;
+  
+  /* Accent colors */
+  --dark-accent: #40c9a2;
+  --dark-accent-hover: #34b08c;
+  
+  /* Border colors */
+  --dark-border: #404246;
+  
+  background-color: var(--dark-background) !important;
+  color: var(--dark-text-primary) !important;
+}
+
+.AppExpert .Dashboard *::selection {
+  background-color: var(--dark-accent) !important;
+  color: var(--dark-background) !important;
+}
+
+/* Main layout and background colors */
+.AppExpert .AppLoadingFull,
+.AppExpert .Dashboard .DashboardFixed,
+.AppExpert .Dashboard .DashboardModal {
+  background-color: var(--dark-background) !important;
+  color: var(--dark-text-primary) !important;
+}
+
+/* Cards and containers */
+.AppExpert .Dashboard .header,
+.AppExpert .Dashboard .nav-item,
+.AppExpert .Dashboard .navbar,
+.AppExpert .Dashboard .card,
+.AppExpert .Dashboard .panel,
+.AppExpert .Dashboard .box,
+.AppExpert .Dashboard .dropdown-menu,
+.AppExpert .Dashboard .modal-content,
+.AppExpert .Dashboard .PotentialLeadRequestBody,
+.AppExpert .Dashboard .InboundListContainer,
+.AppExpert .Dashboard .ExpertProfileMockup,
+.AppExpert .Dashboard .ExpertProfileSettings,
+.AppExpert .Dashboard .InboundListItem,
+.AppExpert .Dashboard .ExpertProfileCalendarOptions,
+.AppExpert .Dashboard .ExpertProfileTransactions,
+.AppExpert .Dashboard .ExpertProfileServiceCard,
+.AppExpert .Dashboard .RequestDetailViewCardBody,
+.AppExpert .Dashboard .ThreadActionQuoteTip,
+.AppExpert .Dashboard .react-datepicker,
+.AppExpert .Dashboard .react-datepicker__month-container,
+.AppExpert .Dashboard .react-datepicker__time-container,
+.AppExpert .Dashboard .ExpertProfileModalContainerBody,
+.AppExpert .Dashboard .ExpertProfileModalClose,
+.AppExpert .Dashboard .PreviousProjectCard,
+.AppExpert .Dashboard .HumanBrandSidebarEditorCard,
+.AppExpert .Dashboard .RichTextEditorWrap,
+.AppExpert .Dashboard .UnknownHumanCard,
+.AppExpert .Dashboard .ThreadDetailSidebarSearchResultCard,
+.AppExpert .Dashboard .DashboardErrorCoverTopper,
+.AppExpert .Dashboard .QuoteAttachedThreadEvent,
+.AppExpert .Dashboard .ThreadDetailMainFocusModalContainerBody,
+.AppExpert .Dashboard .ExpertProfileCalendarAvailabilityWeek {
+  background-color: var(--dark-surface) !important;
+  border-color: var(--dark-border) !important;
+}
+
+.AppExpert .Dashboard .InboundListItem {
+  border-color: var(--dark-text-secondary) !important;
+}
+
+/* Text elements */
+.AppExpert .Dashboard h1,
+.AppExpert .Dashboard h2,
+.AppExpert .Dashboard h3,
+.AppExpert .Dashboard h4,
+.AppExpert .Dashboard h5,
+.AppExpert .Dashboard h6 {
+  color: var(--dark-text-primary) !important;
+}
+
+.AppExpert .Dashboard p,
+.AppExpert .Dashboard span,
+.AppExpert .Dashboard div {
+  color: var(--dark-text-primary) !important;
+}
+
+.AppExpert .Dashboard .HomeScreenUpNextBody {
+  color: var(--dark-background) !important;
+}
+
+/* Links and buttons */
+.AppExpert .Dashboard a {
+  color: var(--dark-accent) !important;
+}
+
+.AppExpert .Dashboard a:hover {
+  color: var(--dark-accent-hover) !important;
+}
+
+/* Input fields */
+.AppExpert .Dashboard input,
+.AppExpert .Dashboard textarea,
+.AppExpert .Dashboard select {
+  background-color: var(--dark-surface-lighter) !important;
+  border-color: var(--dark-border) !important;
+  color: var(--dark-text-primary) !important;
+}
+
+/* Tables */
+.AppExpert .Dashboard table {
+  background-color: var(--dark-surface) !important;
+}
+
+.AppExpert .Dashboard tr:nth-child(even) {
+  background-color: var(--dark-surface-lighter) !important;
+}
+
+/* Scrollbar customization */
+.AppExpert .Dashboard ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.AppExpert .Dashboard ::-webkit-scrollbar-track {
+  background: var(--dark-background);
+}
+
+.AppExpert .Dashboard ::-webkit-scrollbar-thumb {
+  background: var(--dark-surface-lighter);
+  border-radius: 4px;
+}
+
+.AppExpert .Dashboard ::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-border);
+}
+
+/* Status indicators and badges */
+.AppExpert .Dashboard .badge,
+.AppExpert .Dashboard .status-indicator {
+  border-color: var(--dark-border) !important;
+}
+
+/* Tooltips */
+.AppExpert .Dashboard .tooltip,
+.AppExpert .Dashboard .popover {
+  background-color: var(--dark-surface) !important;
+  border-color: var(--dark-border) !important;
+  color: var(--dark-text-primary) !important;
+}
+
+/* Form elements */
+.AppExpert .Dashboard .form-control:focus {
+  border-color: var(--dark-accent) !important;
+  box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.2) !important;
+}
+
+/* Buttons */
+.AppExpert .Dashboard .btn-primary {
+  background-color: var(--dark-accent) !important;
+  border-color: var(--dark-accent) !important;
+}
+
+.AppExpert .Dashboard .btn-primary:hover {
+  background-color: var(--dark-accent-hover) !important;
+  border-color: var(--dark-accent-hover) !important;
+}
+
+/* Icons */
+.AppExpert .Dashboard .icon,
+.AppExpert .Dashboard .svg-icon {
+  filter: brightness(0.8) !important;
+}
+
+.AppExpert .Dashboard .ClientSummaryBody,
+.AppExpert .Dashboard .AdminDashboardForm,
+.AppExpert .Dashboard .ThreadEventCard,
+.AppExpert .Dashboard .ThreadDetailSidebarTagger,
+.AppExpert .Dashboard .ThreadEditorCard,
+.AppExpert .Dashboard .ThreadDetailSidebarUpNextCard {
+  background-color: var(--dark-surface-lighter) !important;
+}
+
+.AppExpert .Dashboard .DashboardNavLinkSuper,
+.AppExpert .Dashboard .ClientSummaryTaggerCurrent,
+.AppExpert .Dashboard .ThreadDetailSidebarUpNextUnread,
+.AppExpert .Dashboard .ThreadDetailMainHeaderPin,
+.AppExpert .Dashboard .ThreadDetailActionItem,
+.AppExpert .Dashboard .ThreadDetailActionItem > span,
+.AppExpert .Dashboard .ThreadDetailActionBtn,
+.AppExpert .Dashboard .ThreadEditorRowBubbleText,
+.AppExpert .Dashboard .ThreadEditorRowBubbleAdd,
+.AppExpert .Dashboard .ClientSummaryUnreadTag,
+.AppExpert .Dashboard .ThreadDetailActionTrigger:hover,
+.AppExpert .Dashboard .ThreadDetailActionTrigger:hover .ThreadDetailActionText,
+.AppExpert .Dashboard .ThreadEditorFileText,
+.AppExpert .Dashboard .ThreadEditorTool:hover,
+.AppExpert .Dashboard .ThreadEditorTool:hover > span,
+.AppExpert .Dashboard .ThreadEditorActionBtn.ThreadEditorActionSend:hover,
+.AppExpert .Dashboard .ThreadEditorBodySwitchOption,
+.AppExpert .Dashboard .ThreadEditorRecipientsOption,
+.AppExpert .Dashboard .UserBubble,
+.AppExpert .Dashboard .ThreadDetailSidebarTaggerCurrent,
+.AppExpert .Dashboard .ThreadEditorRecipientsInfo,
+.AppExpert .Dashboard .ThreadEditorRecipientsInfo > span,
+.AppExpert .Dashboard .UserNoteSidebarListItem .UserNoteSidebarListItemHeader,
+.AppExpert .Dashboard .UserNoteSidebarListItem .UserNoteSidebarListItemName,
+.AppExpert .Dashboard .UserNoteSidebarListItem .UserNoteSidebarListItemEdit,
+.AppExpert .Dashboard .UserNoteSidebarListItem .UserNoteSidebarListItemBody,
+.AppExpert .Dashboard .UserNoteSidebarListItem .ReadOnlyEdito *,
+.AppExpert .Dashboard .AppDashboardNetworkError,
+.AppExpert .Dashboard .HomeScreenUpNextUnreadTag,
+.AppExpert .Dashboard .HomeScreenUpNextBody,
+.AppExpert .Dashboard .ThreadEditorUpload,
+.AppExpert .Dashboard .UnknownHumanCardOption,
+.AppExpert .Dashboard .PotentialLeadRequestUnreadTag,
+.AppExpert .Dashboard .PotentialLeadRequestBodyPro,
+.AppExpert .Dashboard .PotentialLeadRequestBodyVIP,
+.AppExpert .Dashboard .ExpertProfileSettingsFieldHidden,
+.AppExpert .Dashboard .RequestDetailViewCardBodyHqApprove,
+.AppExpert .Dashboard .RequestDetailViewCardBodyPro,
+.AppExpert .Dashboard .PotentialLeadRequestBodyHqApprove,
+.AppExpert .Dashboard .ThreadEventCardTag,
+.AppExpert .Dashboard .PotentialLeadRequestBodyIsAgency,
+.AppExpert .Dashboard .ThreadDetailSidebarUpNextCardActionNeutral,
+.AppExpert .Dashboard .ThreadDetailMainFocusModalClose,
+.AppExpert .Dashboard .HomeScreenUpNextBody,
+.AppExpert .Dashboard .HomeScreenUpNextTitle,
+.AppExpert .Dashboard .HomeScreenUpNextSubTitle,
+.AppExpert .Dashboard .HomeScreenUpNextLeftCorner,
+.AppExpert .Dashboard .HomeScreenUpNextRightCorner {
+  color: var(--dark-background) !important;
+}
+
+.AppExpert .Dashboard .ThreadDetailActionItem:hover,
+.AppExpert .Dashboard .ThreadDetailActionItem:hover > span,
+.AppExpert .Dashboard .ThreadDetailActionTrigger:hover > *,
+.AppExpert .Dashboard .ThreadEditorRowBubbleAdd:hover,
+.AppExpert .Dashboard .UnknownHumanCardOption:hover,
+.AppExpert .Dashboard .ThreadEvent .UserBubble.UserBubblePrimary,
+.AppExpert .Dashboard .ThreadEditorRowBubbleText:hover,
+.AppExpert .Dashboard .ThreadEditorUpload,
+.AppExpert .Dashboard .EmailEditorSignature,
+.AppExpert .Dashboard .PotentialLeadRequestFooter > a,
+.AppExpert .Dashboard .PotentialLeadRequestFooterSkip {
+  color: var(--dark-text-primary) !important;
+}
