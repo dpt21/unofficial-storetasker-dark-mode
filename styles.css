@@ -65,7 +65,8 @@
 .AppExpert .Dashboard .QuoteAttachedThreadEvent,
 .AppExpert .Dashboard .ThreadDetailMainFocusModalContainerBody,
 .AppExpert .Dashboard .ExpertProfileCalendarAvailabilityWeek,
-.AppExpert .Dashboard .ThreadEditorBodyTemplates {
+.AppExpert .Dashboard .ThreadEditorBodyTemplates,
+.AppExpert .Dashboard .MultiSelectResults {
 	background-color: var(--dark-surface) !important;
 	border-color: var(--dark-border) !important;
 }
@@ -236,7 +237,10 @@
 .AppExpert .Dashboard .HomeScreenUpNextRightCorner,
 .AppExpert .Dashboard .RequestDetailViewCardBodySkipOption,
 .AppExpert .Dashboard .PotentialLeadRequestBodySkipOption,
-.AppExpert .Dashboard .ClientsScreenSearchBar:hover .ClientsScreenSearchToggle {
+.AppExpert .Dashboard .ClientsScreenSearchBar:hover .ClientsScreenSearchToggle,
+.AppExpert .Dashboard .ExpertProfileSettingsAction:hover,
+.AppExpert .Dashboard .ExpertProfileModalFormFieldHidden,
+.AppExpert .Dashboard .MultiSelectTag:hover {
 	color: var(--dark-background) !important;
 }
 
