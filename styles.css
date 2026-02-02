@@ -240,7 +240,10 @@
 .AppExpert .Dashboard .ClientsScreenSearchBar:hover .ClientsScreenSearchToggle,
 .AppExpert .Dashboard .ExpertProfileSettingsAction:hover,
 .AppExpert .Dashboard .ExpertProfileModalFormFieldHidden,
-.AppExpert .Dashboard .MultiSelectTag:hover {
+.AppExpert .Dashboard .MultiSelectTag:hover,
+.AppExpert .Dashboard .RequestDetailViewCardBodyAgency,
+.AppExpert .Dashboard .ThreadDetailMainFocusModalChoicesOptionActive,
+.AppExpert .Dashboard .BasicFormAction:hover {
 	color: var(--dark-background) !important;
 }
 
@@ -256,6 +259,7 @@
 .AppExpert .Dashboard .PotentialLeadRequestFooter > a,
 .AppExpert .Dashboard .PotentialLeadRequestFooterSkip,
 .AppExpert .Dashboard .RequestDetailViewCardBodySkipOption:hover,
-.AppExpert .Dashboard .PotentialLeadRequestBodySkipOption:hover {
+.AppExpert .Dashboard .PotentialLeadRequestBodySkipOption:hover,
+.AppExpert .Dashboard .ThreadEditorBodySwitchOption:hover {
 	color: var(--dark-text-primary) !important;
 }
