@@ -244,7 +244,10 @@
 .AppExpert .Dashboard .RequestDetailViewCardBodyAgency,
 .AppExpert .Dashboard .ThreadDetailMainFocusModalChoicesOptionActive,
 .AppExpert .Dashboard .BasicFormAction:hover,
-.AppExpert .Dashboard .ThreadDetailMainFocusModalChoicesOption:hover {
+.AppExpert .Dashboard .ThreadDetailMainFocusModalChoicesOption:hover,
+.AppExpert
+	.Dashboard
+	.ThreadDetailSidebarUpNextCardAction.ThreadDetailSidebarUpNextCardActionBorder {
 	color: var(--dark-background) !important;
 }
 
