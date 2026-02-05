@@ -247,7 +247,8 @@
 .AppExpert .Dashboard .ThreadDetailMainFocusModalChoicesOption:hover,
 .AppExpert
 	.Dashboard
-	.ThreadDetailSidebarUpNextCardAction.ThreadDetailSidebarUpNextCardActionBorder {
+	.ThreadDetailSidebarUpNextCardAction.ThreadDetailSidebarUpNextCardActionBorder,
+.AppExpert .Dashboard .ThreadEventCardBodyMeetingActionAlert {
 	color: var(--dark-background) !important;
 }
 
