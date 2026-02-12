@@ -269,3 +269,9 @@
 .AppExpert .Dashboard .ThreadDetailMainFocusModalClose:hover {
 	color: var(--dark-text-primary) !important;
 }
+
+.AppExpert .Dashboard .RichTextEditorToolbarInputWrapper,
+.AppExpert .Dashboard .RichTextEditorToolbarInputCover,
+.AppExpert .Dashboard .RichTextEditorToolbarInputBtn {
+	color: var(--dark-background) !important;
+}
