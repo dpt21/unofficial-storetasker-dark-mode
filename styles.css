@@ -275,3 +275,78 @@
 .AppExpert .Dashboard .RichTextEditorToolbarInputBtn {
 	color: var(--dark-background) !important;
 }
+
+/* React Datepicker dark mode */
+.AppExpert .Dashboard .react-datepicker__header {
+	background-color: var(--dark-surface-lighter) !important;
+	border-bottom-color: var(--dark-border) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__current-month,
+.AppExpert .Dashboard .react-datepicker__day-name,
+.AppExpert .Dashboard .react-datepicker__day,
+.AppExpert .Dashboard .react-datepicker__time-name {
+	color: var(--dark-text-primary) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__day:hover {
+	background-color: var(--dark-surface-lighter) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__day--selected,
+.AppExpert .Dashboard .react-datepicker__day--keyboard-selected {
+	background-color: var(--dark-accent) !important;
+	color: var(--dark-background) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__day--today {
+	background-color: var(--dark-border) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__navigation-icon::before {
+	border-color: var(--dark-text-secondary) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__navigation:hover *::before {
+	border-color: var(--dark-text-primary) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__triangle::before,
+.AppExpert .Dashboard .react-datepicker__triangle::after {
+	border-bottom-color: var(--dark-surface) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__time-container {
+	border-left-color: var(--dark-border) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__time {
+	background-color: var(--dark-surface) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__time-box {
+	background-color: var(--dark-surface) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__time-list-item {
+	color: var(--dark-text-primary) !important;
+	background-color: var(--dark-surface) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__time-list-item:hover {
+	background-color: var(--dark-surface-lighter) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__time-list-item--selected {
+	background-color: var(--dark-accent) !important;
+	color: var(--dark-background) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__header--time {
+	background-color: var(--dark-surface-lighter) !important;
+	border-bottom-color: var(--dark-border) !important;
+}
+
+.AppExpert .Dashboard .react-datepicker__day--outside-month {
+	color: var(--dark-text-secondary) !important;
+}
