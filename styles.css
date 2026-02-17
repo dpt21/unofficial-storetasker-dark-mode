@@ -266,7 +266,8 @@
 .AppExpert .Dashboard .RequestDetailViewCardBodySkipOption:hover,
 .AppExpert .Dashboard .PotentialLeadRequestBodySkipOption:hover,
 .AppExpert .Dashboard .ThreadEditorBodySwitchOption:hover,
-.AppExpert .Dashboard .ThreadDetailMainFocusModalClose:hover {
+.AppExpert .Dashboard .ThreadDetailMainFocusModalClose:hover,
+.AppExpert .Dashboard .ThreadEditorRowBubble:hover span {
 	color: var(--dark-text-primary) !important;
 }
 
