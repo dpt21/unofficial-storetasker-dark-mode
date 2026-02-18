@@ -255,6 +255,10 @@
 	color: var(--dark-background) !important;
 }
 
+.AppExpert .Dashboard .ClientsScreen .ClientSummaryBody .ClientSummaryTaggerCurrent {
+	color: var(--dark-background) !important;
+}
+
 .AppExpert .Dashboard .ThreadDetailActionItem:hover,
 .AppExpert .Dashboard .ThreadDetailActionItem:hover > span,
 .AppExpert .Dashboard .ThreadDetailActionTrigger:hover > *,
