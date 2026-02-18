@@ -247,15 +247,8 @@
 .AppExpert .Dashboard .ThreadDetailMainFocusModalChoicesOption:hover,
 .AppExpert
 	.Dashboard
-	.ThreadDetailSidebarUpNextCardAction.ThreadDetailSidebarUpNextCardActionBorder {
-	color: var(--dark-text-primary) !important;
-}
-
+	.ThreadDetailSidebarUpNextCardAction.ThreadDetailSidebarUpNextCardActionBorder,
 .AppExpert .Dashboard .ThreadEventCardBodyMeetingActionAlert {
-	color: var(--dark-background) !important;
-}
-
-.AppExpert .Dashboard .ClientsScreen .ClientSummaryBody .ClientSummaryTaggerCurrent {
 	color: var(--dark-background) !important;
 }
 
